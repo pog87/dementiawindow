@@ -4,3 +4,5 @@
 4. *Team* : @pog87, @giuliabaracc, @francescap, @ludovica, whoever wants to join us 
 5. *URL* :  [github.com/pog87/dementiawindow](github.com/pog87/dementiawindow)
  
+
+![alt text](https://pbs.twimg.com/media/DJMgxGtXgAAmNCU.jpg)
