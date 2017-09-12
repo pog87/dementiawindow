@@ -7,3 +7,11 @@
 
 ![alt text](https://pbs.twimg.com/media/DJMgxGtXgAAmNCU.jpg)
 
+
+DOCKER
+
+1. docker build -t "name:version"
+2. docker run -p 8888:8888 name:version
+
+
+
