@@ -9,5 +9,18 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 
 # Theoretical Motivation
 # Research Design
+
+1. Run the Freesurfer pipelines for the NKI dataset just for those 341 subjects. I can share with you the scripts we use in our lab.
+2. Extract the thickness measures of the Region of Interest we decide from the NKI
+3. Request access to the Harvard dataset and extract those measures for this one too.
+4. Run the Freesurfer pipeline for the ADNI as well, well for the subsamples that have not been run yet. In this case having to go back and manually edit each single brain might be really time consuming. I suggest to just look for major issues (the same goes for the NKI dataset).
+5. Extract the thickness values of our ROIs for the ADNI too.
+6. Perform basic correlations: 
+a. Thickness in those ROIS-age
+b. Behavior in the tasks we pick-age
+c. Thickness in those ROIs-Behavior in those tasks we pick
+7. END!!!
+
+
 # Statistical Analysis
 # Code Development 
