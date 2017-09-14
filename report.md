@@ -23,6 +23,7 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 4. Run the Freesurfer 6.0 pipelines
 5. Freesurfer Qc → manual assessment with tkmedit for biggest issues: adding control points, white matter filling, editing the pial 
 6. Extract cortical thickness measures of fronto-parietal ROIs (to be defined: dLPC, ACC, IPL, IFG?)
+      For cortical ROIs measures we'll be using the Desikan-Killiany atlas and subcortical ROIs (if any): Freesurfer aseg atlas
 7. Extract Ventricular and total brain volume meausures
 8. Fitting of the overlapping curves and computing distances 
 
