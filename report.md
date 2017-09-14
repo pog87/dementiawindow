@@ -48,8 +48,8 @@ Alzheimer's Disease Neuroimaging Initiative (n=300 evenly distributed between EM
 FINAL STEP:
 Overlapping curves and computing distances:
 1. Are DLBS and ADNI normal controls overlapping?
-2. Are the normal curves and the HAB curve any different? Can we use it to predict later cognitive impairment?
-3. Can we predict the degree of cognitive impairment(pre-clinical, EMCI, MCI, LMCI, AD) based on the distance of the subjects from the normal curve? 
+2. Are the normal curves and the HAB curve any different? Can we use the latter to predict later cognitive impairment?
+3. Can we predict the degree of cognitive impairment(pre-clinical, EMCI, MCI, LMCI, AD) based on the distance of the subjects from the normal curves? 
 
 
 # Statistical Analysis
