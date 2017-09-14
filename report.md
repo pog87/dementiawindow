@@ -36,7 +36,7 @@ Harvard Brain Aging (n=284 COGNITIVELY NORMAL age: 60-90 y/o):
 5. Behavioral Performance in TMT x cortical thickness
 6. Subj with high/low beta amyloid: cortical thickness x Behavioral Perfomance in Trail Making Test x age
 
-TEST SET
+TESTING SET
 Alzheimer's Disease Neuroimaging Initiative (n=300 evenly distributed between EMCI,MCI,LMCI and AD):
 1. Run the Freesurfer pipelines
 2. Freesurfer Qc --> manual assessment with tkmedit for biggest issues: adding control points, white matter filling, editing the pial 
