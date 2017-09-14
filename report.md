@@ -9,17 +9,47 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 
 # Theoretical Motivation
 # Research Design
+TRAINING SET
+Dallas Lifespan Brain Study(n=315 NORMAL CONTROLS age: 20-89 y/o):
+1. Run the Freesurfer pipelines
+2. Freesurfer Qc --> manual assessment with tkmedit for biggest issues: adding control points, white matter filling, editing the pial 
+3. Extract cortical thickness measures of fronto-parietal ROIs (to be defined: dLPC, ACC, IPL, IFG?)
+4. Correlation 1: Cortical Thickness ROIs x Age
+5. Correlation 2: Behavioral Performance in the Cambridge Neuropsychological Test Automated Battery x Age
+4. Brain-Behavior correlation: Interaction between age x cortical thickness ROIs x performance in the Cambridge Neuropsychological Test Automated Battery
 
-1. Run the Freesurfer pipelines for the NKI dataset just for those 341 subjects. I can share with you the scripts we use in our lab.
-2. Extract the thickness measures of the Region of Interest we decide from the NKI
-3. Request access to the Harvard dataset and extract those measures for this one too.
-4. Run the Freesurfer pipeline for the ADNI as well, well for the subsamples that have not been run yet. In this case having to go back and manually edit each single brain might be really time consuming. I suggest to just look for major issues (the same goes for the NKI dataset).
-5. Extract the thickness values of our ROIs for the ADNI too.
-6. Perform basic correlations: 
-a. Thickness in those ROIS-age
-b. Behavior in the tasks we pick-age
-c. Thickness in those ROIs-Behavior in those tasks we pick
-7. END!!!
+REPLICATION SET
+Alzheimer's Disease Neuroimaging Initiative(n=150 RANDOMLY CHOSEN HEALTHY CONTROLS age:   ):
+1. Run the Freesurfer pipelines
+2. Freesurfer Qc --> manual assessment with tkmedit for biggest issues: adding control points, white matter filling, editing the pial 
+3. Extract cortical thickness measures of fronto-parietal ROIs
+4. Correlation 1: Cortical Thickness ROIs x Age
+5. Correlation 2: Behavioral Performance in the Trail Making Test x Age
+6. Brain-Behavior correlation: Interaction age x thickness ROIs x performance TMT
+
+PRE-CLINICAL SET
+Harvard Brain Aging (n=284 COGNITIVELY NORMAL age: 60-90 y/o):
+1. Correlation 1: Cortical Thickness ROIs x Age
+2. Correlation 2: beta amyloid x Age --> high beta amyloid subjects vs low beta amyloid subjects
+3. Beta amyloid values x thickness ROIs x age
+4. Behavioral Performance in Trail Making Test x age 
+5. Behavioral Performance in TMT x cortical thickness
+6. Subj with high/low beta amyloid: cortical thickness x Behavioral Perfomance in Trail Making Test x age
+
+TEST SET
+Alzheimer's Disease Neuroimaging Initiative (n=300 evenly distributed between EMCI,MCI,LMCI and AD):
+1. Run the Freesurfer pipelines
+2. Freesurfer Qc --> manual assessment with tkmedit for biggest issues: adding control points, white matter filling, editing the pial 
+3. Extract cortical thickness measures of ROIs
+4. Histogram 1: Cortical Thickness ROIs in each group
+5. Histogram 2: Behavioral Performance in the Trail Making Test x each group
+6. Correlation: Thickness ROIs x Performance in each Group
+
+FINAL STEP:
+Overlapping curves and computing distances:
+1. Are DLBS and ADNI normal controls overlapping?
+2. Are the normal curves and the HAB curve any different? Can we use it to predict later cognitive impairment?
+3. Can we predict the degree of cognitive impairment(pre-clinical, EMCI, MCI, LMCI, AD) based on the distance of the subjects from the normal curve? 
 
 
 # Statistical Analysis
