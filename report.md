@@ -27,7 +27,7 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 7. Extract Ventricular and total brain volume meausures
 8. Fitting of the overlapping curves and computing distances 
 
-Quesitons:
+Research questions:
 1. Are DLBS and ADNI normal controls curves overlapping?
 2. Are the normal curves and the HAB curve any different? Can we use the latter to predict later cognitive impairment?
 3. Can we predict the degree of cognitive impairment(pre-clinical, EMCI, MCI, LMCI, AD) based on the distance of the subjects from the normal curves? 
