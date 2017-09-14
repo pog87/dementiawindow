@@ -12,7 +12,7 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 
 ## 3.1. Data sets
 1. **Training Set:** Dallas Lifespan Brain Study (DLBS, n=315, healthy controls HC, age range: 20-89 y/o)
-2. **Replication Set:** randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: to be defined )
+2. **Replication Set:** randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: 55-90 y/o)
 3. **Pre-Clinical Set:** Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
 4. **Test set:** ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: to be defined )
 
@@ -45,7 +45,7 @@ Quesitons:
   3. Brain-Behavior correlation: Interaction age x thickness ROIs x performance TMT
 * **Pre Clinical Set**
   1. Correlation 1: Cortical Thickness ROIs x Age
-  2. Correlation 2: beta amyloid x Age --> high beta amyloid subjects vs low beta amyloid subjects
+  2. Correlation 2: beta amyloid x Age → high beta amyloid subjects vs low beta amyloid subjects
   3. Beta amyloid values x thickness ROIs x age
   4. Behavioral Performance in Trail Making Test x age 
   5. Behavioral Performance in TMT x cortical thickness
