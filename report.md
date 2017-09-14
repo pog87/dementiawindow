@@ -19,7 +19,7 @@ Dallas Lifespan Brain Study(n=315 NORMAL CONTROLS age: 20-89 y/o):
 4. Brain-Behavior correlation: Interaction between age x cortical thickness ROIs x performance in the Cambridge Neuropsychological Test Automated Battery
 
 REPLICATION SET
-Alzheimer's Disease Neuroimaging Initiative(n=150 RANDOMLY CHOSEN HEALTHY CONTROLS age:   ):
+Alzheimer's Disease Neuroimaging Initiative(n=150 RANDOMLY CHOSEN HEALTHY CONTROLS):
 1. Run the Freesurfer pipelines
 2. Freesurfer Qc --> manual assessment with tkmedit for biggest issues: adding control points, white matter filling, editing the pial 
 3. Extract cortical thickness measures of fronto-parietal ROIs
@@ -47,10 +47,23 @@ Alzheimer's Disease Neuroimaging Initiative (n=300 evenly distributed between EM
 
 FINAL STEP:
 Overlapping curves and computing distances:
-1. Are DLBS and ADNI normal controls overlapping?
+1. Are DLBS and ADNI normal controls curves overlapping?
 2. Are the normal curves and the HAB curve any different? Can we use the latter to predict later cognitive impairment?
 3. Can we predict the degree of cognitive impairment(pre-clinical, EMCI, MCI, LMCI, AD) based on the distance of the subjects from the normal curves? 
 
 
 # Statistical Analysis
+We'll be performing t-tests between:
+1. DLBS and ADNI normal controls
+2. DLBS/ADNI normal controls and HAB
+3. DLBS/ADNI normal controls and EMCI
+4. DLBS/ADNI normal controls and MCI
+5. DLBS/ADNI normal controls and LMCI
+6. DLBS/ADNI normal controls and AD
+
+We'll be performing ANOVAs between:
+1. EMCI-MCI-LMCI-AD
+2. normal curve (DLBS/ADNI controls) - pre-clinical curve (HAB) - clinical curve (that includes EMCI,MCI,LMCI and AD)
+
+
 # Code Development 
