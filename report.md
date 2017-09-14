@@ -13,10 +13,10 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 # Research Design
 
 ## Data sets
-1. **Training Set: ** Dallas Lifespan Brain Study (DLBS, n=315, healthy controls HC, age range: 20-89 y/o)
-2. **Replication Set: ** randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: )
-3. **Pre-Clinical Set: ** Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
-4. **Test set: ** ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: )
+1. **Training Set:** Dallas Lifespan Brain Study (DLBS, n=315, healthy controls HC, age range: 20-89 y/o)
+2. **Replication Set:** randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: )
+3. **Pre-Clinical Set:** Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
+4. **Test set:** ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: )
 
 
 
