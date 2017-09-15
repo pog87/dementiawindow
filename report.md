@@ -72,4 +72,4 @@ We'll be performing ANOVAs between:
 
 # 5. Code Development 
 Freesurfer recon-all will be run using Python language (nipype). 
-Our statistical analysis will be performed using R language.
+Our statistical analysis will be performed using "rpy2" package in Python.
