@@ -38,22 +38,22 @@ Research questions:
 
 # 4. Statistical Analysis
 ## 4.1. Intra-group analysis
-* **Training Set**
+* **DLBS dataset**
   1. Correlation 1: Cortical Thickness ROIs x Age
   2. Correlation 2: Behavioral Performance in the Cambridge Neuropsychological Test Automated Battery x Age
   3. Brain-Behavior correlation: Interaction between age x cortical thickness ROIs x performance in the Cambridge Neuropsychological Test Automated Battery
-* **Replication Set**
+* **ADNI Healthy controls**
   1. Correlation 1: Cortical Thickness ROIs x Age
   2. Correlation 2: Behavioral Performance in the Trail Making Test x Age
   3. Brain-Behavior correlation: Interaction age x thickness ROIs x performance TMT
-* **Pre Clinical Set**
+* **HAB dataset**
   1. Correlation 1: Cortical Thickness ROIs x Age
   2. Correlation 2: beta amyloid x Age → high beta amyloid subjects vs low beta amyloid subjects
   3. Beta amyloid values x thickness ROIs x age
   4. Behavioral Performance in Trail Making Test x age 
   5. Behavioral Performance in TMT x cortical thickness
   6. Subj with high/low beta amyloid: cortical thickness x Behavioral Perfomance in Trail Making Test x age
-* **Test Set**
+* **ADNI clinical subsample**
   1. Extract cortical thickness measures of ROIs
   2. Histogram 1: Cortical Thickness ROIs in each group
   3. Histogram 2: Behavioral Performance in the Trail Making Test x each group
@@ -75,4 +75,5 @@ We'll be performing ANOVAs between:
 
 # 5. Code Development 
 Freesurfer recon-all will be run using Python language (nipype). 
-Our statistical analysis will be performed using "rpy2" package in Python.
+Our statistical analysis will be performed using "rpy2" package in Python. 
+We'll train and test a classifier.
