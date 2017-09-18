@@ -15,9 +15,9 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 1. Dallas Lifespan Brain Study (DLBS, n=315, healthy controls HC, age range: 20-89 y/o)
 2. Randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: 55-90 y/o)
 * **Pre-clinical subsample**
-Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
+3. Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
 * **Clinical Subsample**
-ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: to be defined )
+4. ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: to be defined )
 
 ## 3.2. Pipeline
 1. Quality control using `MRIQC` tool
