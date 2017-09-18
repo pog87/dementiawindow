@@ -1,7 +1,7 @@
 # 1. Description
-We'll be analyzing cortical thickness values of normal, pre-clinical and clinical populations in pre-determined fronto-parietal ROIs as a function of age, beta amyloid values and behavioral measures (for the datasets that have made them available).
+We'll be analyzing and predicting cortical thickness values of normal, pre-clinical and clinical populations in pre-determined fronto-parietal ROIs as a function of age, beta amyloid values and behavioral measures (for the datasets that have made them available).
 
-We'll be using the DLBS dataset as a training set and the ADNI healthy control subsample as a replication set. The HAB dataset will be considered as an explorative pre-clinical set before actually testing the distance of MCI and AD patients from the normal curve.
+We'll be training and testing our classifier using data coming from the DLBS and the ADNI datasets (for replication purposes between datasets) as our healthy control subsample, from the HAB dataset as our explorative pre-clinical set and from the ADNI EMCI, MCI, LMCI, AD data as our clinical subsample. We'll be splitting each dataset into two halves: one will be used to train and one to test our classifier. Each subsample (normal-pre clinical-clinical) will have the same number of subjects that will be randomly chosen from each dataset. 
 
 # 2.Theoretical Motivation
 
@@ -11,10 +11,13 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 # 3. Research Design
 
 ## 3.1. Data sets
-1. **Training Set:** Dallas Lifespan Brain Study (DLBS, n=315, healthy controls HC, age range: 20-89 y/o)
-2. **Replication Set:** randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: 55-90 y/o)
-3. **Pre-Clinical Set:** Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
-4. **Test set:** ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: to be defined )
+* **Normal Subsample**
+1. Dallas Lifespan Brain Study (DLBS, n=315, healthy controls HC, age range: 20-89 y/o)
+2. Randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: 55-90 y/o)
+* **Pre-clinical subsample**
+Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
+* **Clinical Subsample**
+ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: to be defined )
 
 ## 3.2. Pipeline
 1. Quality control using `MRIQC` tool
@@ -28,7 +31,7 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 8. Fitting of the overlapping curves and computing distances 
 
 Research questions:
-1. Are DLBS and ADNI normal controls curves overlapping?
+1. Are DLBS and ADNI normal controls curves overlapping? 
 2. Are the normal curves and the HAB curve any different? Can we use the latter to predict later cognitive impairment?
 3. Can we predict the degree of cognitive impairment(pre-clinical, EMCI, MCI, LMCI, AD) based on the distance of the subjects from the normal curves? 
 
