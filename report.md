@@ -1,7 +1,7 @@
 # 1. Description
 We'll be analyzing and predicting cortical thickness values of normal, pre-clinical and clinical populations in pre-determined fronto-parietal ROIs as a function of age, beta amyloid values and behavioral measures (for the datasets that have made them available).
 
-We'll be training and testing our classifier using data coming from the DLBS and the ADNI datasets (for replication purposes between datasets) as our healthy control subsample, from the HAB dataset as our explorative pre-clinical set and from the ADNI EMCI, MCI, LMCI, AD data as our clinical subsample. We'll be splitting each dataset into two halves: one will be used to train and one to test our classifier. Each subsample (normal-pre clinical-clinical) will have the same number of subjects that will be randomly chosen from each dataset. 
+We'll be training our classifier using data coming from the DLBS and validate it by using data coming from the ADNI healthy control sub-dataset. We'll then be testing our model with data from the HAB and ADNI(EMCI, MCI, LMCI, AD data) datasets to assess whether and to what extent(hopefully to different degrees) pre-clinical and clinical fall off the normal trajectory.   
 
 # 2.Theoretical Motivation
 
@@ -11,12 +11,12 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 # 3. Research Design
 
 ## 3.1. Data sets
-* **Normal Subsample**
+* **Normal Trajectory**
 1. Dallas Lifespan Brain Study (DLBS, n=315, healthy controls HC, age range: 20-89 y/o)
 2. Randomly chosen healthy controls from Alzheimer's Disease Neuroimaging Initiative (ADNI, n=150 , HC,  age range: 55-90 y/o)
-* **Pre-clinical subsample**
+* **Pre-clinical Trajectory**
 3. Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
-* **Clinical Subsample**
+* **Clinical Trajectory**
 4. ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: to be defined )
 
 ## 3.2. Pipeline
@@ -53,7 +53,7 @@ Research questions:
   4. Behavioral Performance in Trail Making Test x age 
   5. Behavioral Performance in TMT x cortical thickness
   6. Subj with high/low beta amyloid: cortical thickness x Behavioral Perfomance in Trail Making Test x age
-* **ADNI clinical subsample**
+* **ADNI clinical**
   1. Extract cortical thickness measures of ROIs
   2. Histogram 1: Cortical Thickness ROIs in each group
   3. Histogram 2: Behavioral Performance in the Trail Making Test x each group
