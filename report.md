@@ -17,7 +17,7 @@ In this way, by performing this analysis on the full spectrum, we will be able t
 * **Pre-clinical Trajectory**
 3. Harvard Brain Aging (HBA, n=284, Cognitively Normal CN age range: 60-90 y/o)
 * **Clinical Trajectory**
-4. ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: to be defined )
+4. ADNI (n=300, evenly distributed between EMCI,MCI,LMCI and AD, age range: 55-90 y/o)
 
 ## 3.2. Pipeline
 1. Quality control using `MRIQC` tool
