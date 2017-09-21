@@ -1,0 +1,58 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "total": 4
+        }
+    ],
+    "links": [
+        {
+            "source": 2,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "value": 1
+        }
+    ],
+    "maxN": 4,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_grabber",
+            "report": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmpM4tAw3/workflow/grabber/_report/report.rst",
+            "result": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmpM4tAw3/workflow/grabber/result_grabber.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_neck_remove",
+            "report": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmp_LuIz3/workflow/neck_remove/_report/report.rst",
+            "result": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmp_LuIz3/workflow/neck_remove/result_neck_remove.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_N4_FC",
+            "report": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmp_Hrb5D/workflow/N4_FC/_report/report.rst",
+            "result": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmp_Hrb5D/workflow/N4_FC/result_N4_FC.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_sink",
+            "report": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmpOOWA9A/workflow/sink/_report/report.rst",
+            "result": "/var/folders/5_/33p0sl3j2_ngqn_gghyy2zj00000gn/T/tmpOOWA9A/workflow/sink/result_sink.pklz"
+        }
+    ]
+}

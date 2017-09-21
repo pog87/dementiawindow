@@ -1,3 +1,4 @@
+cd "examples/"
 
 CORES=4 #if quad-core
 TASKS= #put here number of processors -1

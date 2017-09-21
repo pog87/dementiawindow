@@ -1,0 +1,32 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_grabber",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_grabber"
+        ],
+        "name": "1_neck_remove",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_neck_remove"
+        ],
+        "name": "2_N4_FC",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "2_N4_FC"
+        ],
+        "name": "3_sink",
+        "size": 1
+    }
+]
